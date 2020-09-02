@@ -10,7 +10,7 @@ spec:
   template:
     spec:
       containers:
-      - image: monachus/rancher-demo:latest
+      - image: mikebookhamcap/rancher-demo:0.0.1
         name: rancher-demo
         envFrom:
         - configMapRef:
